@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.lwl.selenium&apos; to &apos;com.basics&apos;&#x0D;&#x0A;- Original project: &apos;Selenium_Learning&apos;&#x0D;&#x0A;- Original element: &apos;Selenium_Learning/src/test/java/com.lwl.selenium&apos;&#x0D;&#x0A;- Renamed element: &apos;Selenium_Learning/src/test/java/com.basics&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.lwl.selenium&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;com.lwl.selenium" name="com.basics" qualified="false" references="true" stamp="1634791633822" textual="false" version="1.0"/>
+</session>

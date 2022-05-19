@@ -1,0 +1,9 @@
+package com.test.amazon;
+
+public class TestingAmazon {
+
+	public static void main(String[] args) {
+
+	}
+
+}

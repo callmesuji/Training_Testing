@@ -1,0 +1,15 @@
+package com.nttdata.com;
+
+import java.util.Scanner;
+
+public class RohanExam {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter no of elements in array");
+		int n = sc.nextInt();
+		System.out.println(n);
+		int[] arr = new int[n];
+	}
+
+}

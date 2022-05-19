@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Base.java&apos; to &apos;LaunchBrowser/src/com.ntt.base&apos;&#x0D;&#x0A;- Original project: &apos;LaunchBrowser&apos;&#x0D;&#x0A;- Destination element: &apos;LaunchBrowser/src/com.ntt.base&apos;&#x0D;&#x0A;- Original element: &apos;com.ntt.finalcasestudy.Base.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;com.ntt.base" element1="/src&lt;com.ntt.finalcasestudy{Base.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1635909081749" units="1" version="1.0"/>
+</session>

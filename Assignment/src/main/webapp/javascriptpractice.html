@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script>
+	/* function printvalue() {
+		var x = document.getElementById('val').value;
+
+		document.getElementById('id1').innerHTML = "value of number is" + x;
+	}
+
+	function positiveornot() {
+
+		var x = document.getElementById('val').value;
+
+		if (x >= 0) {
+			document.getElementById('id2').innerHTML = "number is positive "
+					+ x;
+		} else {
+			document.getElementById('id2').innerHTML = "number is negative "
+					+ x;
+
+		}
+	}
+
+	function printtable() {
+
+		var x = document.getElementById('val').value;
+
+		var result = "";
+
+		for (var i = 1; i <= 10; i++) {
+			var table = x * i;
+			result = result + "<br>" + table;
+		}
+		document.getElementById('table').innerHTML = "Table of" + x + "is"
+				+ "<br>" + result;
+	}
+
+	function checkVowel() {
+		ch = document.getElementById("char").value;
+		if (ch) {
+			temp = document.getElementById("resPara");
+			temp.style.display = "block";
+			if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) {
+				if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o'
+						|| ch == 'u')
+					document.getElementById("res").innerHTML = "a Vowel";
+				else if (ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O'
+						|| ch == 'U')
+					document.getElementById("res").innerHTML = "a Vowel";
+				else
+					document.getElementById("res").innerHTML = "a Consonant";
+			} else
+				document.getElementById("res").innerHTML = "neither Vowel nor Consonant";
+		}
+	}
+	function evenornot() {
+		even = document.getElementById('even').value;
+
+		if (even % 2 == 0) {
+			alert(even % 2);
+			document.getElementById("evenPara").innerHTML = "Even Number";
+		} else {
+			document.getElementById("evenPara").innerHTML = "Odd Number";
+
+		}
+
+	}
+
+	function factorial() {
+		factorial = document.getElementById('fact').value;
+		var answer = 1;
+
+		for (var i = factorial; i >= 1; i--) {
+			answer = answer * i
+
+		}
+		document.getElementById("factPara").innerHTML = "Factorial of "
+				+ factorial + " is " + answer;
+	} */
+</script>
+</head>
+<body>
+	<label for="val">Number</label>
+	<input type="number" id="val" placeholder="enter number">
+	<button onclick="printvalue()">submit</button>
+	<p id="id1"></p>
+
+	<button onclick="positiveornot()">check + or -</button>
+	<p id="id2"></p>
+
+	<button onclick="printtable()">print table</button>
+	<p id="table"></p>
+
+	<!--  -->
+
+
+	<!-- VOWEL OR NOT -->
+	<p>
+		Enter the Character To Check Vowel Or Not: <input id="char">
+		<button onclick="checkVowel()">Check</button>
+	</p>
+	<p id="resPara" style="display: none;">
+		It is <span id="res"></span>
+	</p>
+	<!-- EVEN OR NOT -->
+
+	<p>
+		Enter the no to check even or not <input id="even">
+		<button onclick="evenornot()">Check</button>
+	</p>
+	<p id="evenPara"></p>
+
+
+
+
+	<!-- FACTORIAL  -->
+	<p>
+		Enter the no to check Factorial <input id="fact">
+		<button onclick="factorial()">Check</button>
+	</p>
+	<p id="factPara"></p>
+</body>
+<script src="javascript.js"></script>
+</html>
